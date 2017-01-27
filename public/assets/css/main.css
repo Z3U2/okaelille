@@ -60,11 +60,11 @@ h1 {
   height: 17rem;
   border-radius: 5px;
 
-  -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-  -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-  -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-  -o-transition: color 0.1s ease-in, background 0.1s ease-in;
-  transition: color 0.1s ease-in, background 0.1s ease-in;
+  -webkit-transition: color 0.2s ease-in, background 0.2s ease-in-out;
+  -moz-transition: color 0.2s ease-in, background 0.2s ease-in-out;
+  -ms-transition: color 0.2s ease-in, background 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in, background 0.2s ease-in-out;
+  transition: color 0.2s ease-in, background 0.2s ease-in-out;
 }
 
 .article-list-item:hover,
@@ -99,8 +99,35 @@ h1 {
   height: inherit;
 }
 
+/*Single item description*/
+.right-col,
+.middle-col,
+.left-col {
+  height: 17rem;
+  background-color: lightgrey;
+  border : 1px solid black;
+  /*padding-left: 1px;*/
+  /*padding-right: 0;*/
+}
 
+.tech-detail,
+.story-detail {
+  border : 1px solid black;
+  height : 30rem;
+  background-color: red;
+}
 
+.opacity{
+  display: none;
+  position: fixed;
+  background-color: black;
+  opacity: 0.5;
+  z-index:1000;
+  width: 100vw;
+  height:100vh;
+  top: 0;
+  left:0;
+}
 
 
 /* Paragraph & Typographic */
