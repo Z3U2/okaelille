@@ -51,7 +51,7 @@ h1 {
 /* Article List*/
 .breather {
   padding: 1rem;
-  height: 17rem;
+  height: 7rem;
   border-radius: 5px;
 }
 
@@ -101,20 +101,29 @@ h1 {
 
 /*Single item description*/
 .right-col,
-.middle-col,
-.left-col {
-  height: 17rem;
-  background-color: lightgrey;
-  border : 1px solid black;
+.middle-col {
+  padding-bottom: 2px;
+  min-height: 17rem;
+  /*background-color: lightgrey;*/
+  border-left : 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
   /*padding-left: 1px;*/
   /*padding-right: 0;*/
 }
 
+.left-col {
+  min-height: 67rem;
+  /*background-color: lightgrey;*/
+  /*border-bottom: 1px solid lightgrey;*/
+  border-left : 1px solid lightgrey;
+}
+
 .tech-detail,
 .story-detail {
-  border : 1px solid black;
-  height : 30rem;
-  background-color: red;
+  /*border-bottom: 1px solid lightgrey;*/
+  border-left : 1px solid lightgrey;
+  min-height : 50rem;
+  /*background-color: red;*/
 }
 
 .opacity{
@@ -129,7 +138,28 @@ h1 {
   left:0;
 }
 
+.item-name {
+  /*text-align: center;*/
+  /*padding-bottom: 5px;*/
+  border-bottom: 1px solid lightgrey;
+}
 
+.item-cover,
+.item-teaser {
+  padding-top: 5px;
+  width : 100%;
+}
+
+.item-box-title {
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 1px;
+}
+.initial {
+  font-family: 'Momotaro DK', sans-serif;
+  font-size: 2em;
+}
 /* Paragraph & Typographic */
 p {
     line-height: 28px;
